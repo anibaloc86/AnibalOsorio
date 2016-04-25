@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application_2</string>
+    <string name="titulo">Calculadora.</string>
+    <string name="comentario1">Ingresa los números.</string>
+    <string name="numero1">Primer número:</string>
+    <string name="numero2">Segundo número:</string>
+    <string name="comentario2">Selecciona una operación.</string>
+    <string name="suma">Suma.</string>
+    <string name="resta">Resta.</string>
+    <string name="multiplicacion">Multiplicación.</string>
+    <string name="division">División.</string>
+    <string name="calcular">Calcular.</string>
+    <string name="total">TOTAL</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.anibalosorio.myapplication_3.MainActivity_3"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.01"
+        android:text="Área"
+        android:textSize="30dp"
+        android:textColor="@color/darkcyan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:padding="1dp"
+        android:text="Selecciona la figura."/>
+
+    <RadioGroup
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Círculo"
+            android:textSize="18sp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/rCir"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuadrado."
+            android:textSize="18sp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/rCua"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rectrángulo."
+            android:textSize="18sp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/rRect"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triángulo."
+            android:textSize="18sp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/rTri"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calcular."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/royalblue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="El área es:"
+        android:shadowColor="@color/black"
+        android:shadowRadius="11"
+        android:shadowDy="11"
+        android:shadowDx="11"
+        android:id="@+id/area"/>
+</LinearLayout>
